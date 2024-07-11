@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: #eee;
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 11px;
+    color: #eee;
+    background-color: black;
+    position: fixed;
+}
+.p-1{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.li1{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.links ul{
+   display: flex;
+   gap: 20px;
+   font-weight: bold;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #eee;
+}
+.li1:hover{
+    background-color: dodgerblue;   
+    transition: all 0.5s ease;
+}
+.btn-head .btn1{
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: dodgerblue;
+    box-shadow: 0 0 20px dodgerblue;
+    border: 2px solid #eee;
+    transition: all 0.5s ease;
+}
+.btn1:active{
+    width: 150px;
+    transition: all 0.5s ease;
+}
+.main{
+    width: 100%;
+    padding: 100px;
+    padding-top: 395px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid #eee; */
+    height: 936px;
+    margin-top: 2px;
+}
+.p2{
+    font-size: 65px;
+    font-weight: bold;
+
+}
+.p2 span{
+    color: dodgerblue;
+}
+.p3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.photo{
+    margin-top: -150px;
+    
+}
+.img1{
+    border-radius: 50%;
+}
+.contact{
+    width: 100%;
+    padding-top: 150px;
+}
+.contact .h3{
+    width: 100%;
+    text-align: center;
+}
+.contact .h3 h3{
+    font-size: 40px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.icons {
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 152px;
+}
+.icons a{
+    text-decoration: none;
+    color: #eee;
+}
+.icons a:hover{
+    text-decoration: none;
+}
+.icons span{
+    font-size: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.icons span:hover{
+    width: 260px;
+    font-size: 33px;
+    /* border: 1px solid #eee; */
+    color: #eee;
+    transition: all 0.5s ease;
+}
+.about{
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+
+}
+.head-about{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.head-about .text-about h3{
+    font-size: 40px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.head-about .icons-about{
+    font-size: 70px;
+}
+.p-about{
+    width: 80%;
+    margin: auto;
+}
+.p-about p{
+    font-size: 30px;
+}
+.p2-about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.p2-about span{
+    font-size: 70px;
+    display: inline-block;
+}
+.p2-about .span1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.p2-about .span1 .span2{
+    font-size: 60px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.service{
+    width: 100%;
+}
+.service .head-service{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.service .head-service h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.service .head-service h4{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.service .cr-service{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.c-cr{
+    width: 90%;
+    margin: auto;
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-around;
+}
+.hd-cr{
+    text-align: center;
+ }
+.hd-cr h4{
+    color: dodgerblue;
+    font-weight: bold;
+}
+.cr-div{
+    margin-top: 20px;
+    padding-top: 40px;
+    height: 500px;
+    /* border: 0.5px solid dodgerblue; */
+    border-radius: 30px;
+}
+ .cr-div .bt-cr{
+    width: 100%;
+    bottom: 0;
+ }
+ .cr-div .hd-cr .line{
+    width: 80%;
+    height: 1px;
+    background-color: dodgerblue;
+    margin: auto;
+ }
+ .cr-div ul{
+    margin-top: 15px;
+ }
